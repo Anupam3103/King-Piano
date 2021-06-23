@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main()
+{
+      int food ;
+    printf("Enter your food number ");
+    scanf("%d",&food );
+    if(food <1 || food >5)
+    {
+        printf("Wrong Entry");
+    }
+
+    else if(food == 1)
+    {
+        printf("Pizza,Rs239");
+    }
+    else if (food ==2)
+    {
+        printf("Burger, Rs129");
+    }
+    else if (food ==3)
+    {
+        printf("Pasta,Rs179");
+    }
+
+    else if(food ==4)
+    {
+        printf("French Fries,Rs 99");
+    }
+    else if(food == 5)
+    {
+        printf("Sandwich,Rs149");
+    }
+}
